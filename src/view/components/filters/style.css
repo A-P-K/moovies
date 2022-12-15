@@ -1,0 +1,28 @@
+.series-list-filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.series-list-filter {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px;
+    box-shadow: 0 0 5px #fff;
+}
+
+@media (min-width: 768px) {
+    .series-list-filter {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 576px) {
+    .series-list-filter {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,7 @@
+:root {
+    --button-hover-bacground: #556878;
+    --button-active-bacground: #7098b7;
+    --button-font-family: Arial, Helvetica, sans-serif;
+
+    --border-radius: 4px;
+}

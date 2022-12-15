@@ -1,0 +1,67 @@
+.series-preview {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.series-preview:hover > .series-preview-bacground {
+    filter: blur(3px);
+}
+
+.series-preview:hover > .series-preview-title {
+    bottom: 0;
+}
+
+.series-preview-bacground {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1);
+    filter: blur(0);
+    transition: transform 0.2s ease-out filter 0.2s ease-out;
+}
+
+.series-preview-title {
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: bottom 0.2s ease-out;
+    user-select: none;
+}
+
+.series-preview-lang {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    user-select: none;
+}
+
+.series-preview-rating {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    user-select: none;
+}
+
+.series-preview-realRating {
+    opacity: 15%;
+    user-select: none;
+}

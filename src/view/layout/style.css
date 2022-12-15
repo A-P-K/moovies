@@ -1,0 +1,17 @@
+.layout-container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 30%);
+    padding: 24px;
+}
+
+.layout-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    min-width: 272px;
+    max-width: 1200px;
+}

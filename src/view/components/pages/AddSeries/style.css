@@ -1,0 +1,122 @@
+.add {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 12px;
+    box-shadow: 0 0 10px white;
+}
+
+.add-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.add-label {}
+
+.add-label-input {
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    width: calc(100% - 24px);
+    height: 56px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--button-font-family);
+    border-radius: 4px;
+}
+
+.add-label-input:hover {
+    background-color: white;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.add-form-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.add-form-description {
+    width: 100%;
+}
+
+.add-form-description-textarea {
+    resize: none;
+    width: calc(100% - 24px);
+    height: calc(100% - 16px);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 8px 12px;
+    font-size: 24px;
+    font-family: var(--button-font-family);
+}
+
+.add-form-description-textarea:hover {
+    background-color: white;
+}
+
+.add-button-block {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.add-button {
+    width: 50%;
+    height: 36px;
+    font-size: 24px;
+    font-family: var(--button-font-family);
+    background-color: rgb(86, 158, 86);
+    border: none;
+    border-radius: 4px;
+}
+
+.add-button:hover {
+    background-color: rgb(4, 250, 4);
+    box-shadow: 0 0 10px white;
+}
+
+.add-button:active {
+    box-shadow: 0 0 10px black;
+    background-color: rgb(0, 163, 0);
+    color: white;
+}
+
+.add-form-genre {
+    width: 100%;
+    height: 56px;
+}
+
+.select-genre {
+    height: 100%;
+    width: 100%;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: var(--button-font-family);
+    background-color: #fff6;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 0 12px;
+}
+
+.select-genre:hover {
+    background-color: white;
+}
+    
