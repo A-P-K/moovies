@@ -19,6 +19,7 @@
   "devDependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "cssnano": "^5.1.14",
     "parcel": "^2.7.0",
     "prettier": "^2.7.1",
     "process": "^0.11.10",
@@ -29,5 +30,7 @@
   "license": "MIT",
   "msw": {
     "workerDirectory": "dist"
-  }
+  },
+  "repository": "https://github.com/A-P-K/moovies.git",
+  "author": "Pavel Arkhipov <58292997+A-P-K@users.noreply.github.com>"
 }
